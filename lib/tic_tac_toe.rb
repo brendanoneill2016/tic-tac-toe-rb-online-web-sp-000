@@ -7,7 +7,7 @@ end
 if draw?(board)
   puts "Cat's Game!"
 elsif winner(board)
-  puts "#{winner(board)}"
+  puts "Congratulations #{winner(board)}!"
 elsif full?(board)
  puts "Full!"
 end
